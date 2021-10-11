@@ -68,6 +68,8 @@ public class RetrieveServlet extends HttpServlet {
 				out.println("Product Name: " + productName + "<br/>");
 				out.println("Product Quantity In Stock: " + productQuantityInStock + "<br/>");
 				out.println("Product Unit Price: " + productUnitPrice + "<br/>");
+				out.println("Product Unit Price1: " + productUnitPrice + "<br/>");
+
 
 			}
 			if (!hasProduct) {
